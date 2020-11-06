@@ -16,6 +16,24 @@
 
 OpenCore 0.6.3
 
+## SMBIOS ID 
+
+iMac19,1 / 27 寸
+
+## BIOS 配置
+
+- BIOS Q-Flash 升级为 10h (BETA)
+- Advanced Mode > Settings > IO Ports > Initial Display Output > PCIe 1 Slot
+- Advanced Mode > Settings > IO Ports > Above 4G Decoding > Enabled
+- Advanced Mode > Settings > IO Ports > USB Configuration > XHCI Hand-off > Enabled
+- Advanced Mode > Boot > CSM Support > Disabled
+- Advanced Mode > Settings > IO Ports > Internal Graphics > Enabled
+- Advanced Mode > Settings > IO Ports > DVMT Pre-Allocated > 128M (此配置只在启用Internal Graphics后出现)
+- Advanced Mode > Power Management > ERP > Enabled
+- Boot > CFG Lock > Disabled
+
+CFG 必须禁用才能启用 NVRAM
+
 # Credits
 
 - https://github.com/wqh0109663/Gigabyte-Z390-Gaming-X-Hackintosh
