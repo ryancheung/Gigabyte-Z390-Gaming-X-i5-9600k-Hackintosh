@@ -1010,7 +1010,7 @@
 				<key>Name</key>
 				<string>Windows 10</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1B,0x0)/Pci(0x0,0x0)/NVMe(0x1,00-00-00-00-00-00-00-00)/HD(1,GPT,9B311C3A-C356-4589-BCB5-9FB571116926,0x800,0x32000)/\EFI\Microsoft\Boot\bootmgfw.efi</string>
+				<string>PciRoot(0x0)/Pci(0x1B,0x0)/Pci(0x0,0x0)/NVMe(0x1,54-EB-25-48-8B-44-1B-00)/HD(1,GPT,41F70A75-D463-4113-A5A5-E0130A2307AA,0x800,0x32000)/\EFI\Microsoft\Boot\bootmgfw.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
